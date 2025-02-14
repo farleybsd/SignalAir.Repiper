@@ -1,0 +1,27 @@
+<div class="container mt-4">
+    <h2 class="mb-4">Poll Results</h2>
+    <div class="card">
+      <div class="card-body">
+        <ul class="list-group">
+          <li *ngFor="let option of options" class="list-group-item">
+            <div class="d-flex justify-content-between">
+              <span>{{ option.text }}</span>
+              <span>{{ option.votes }} votes</span>
+            </div>
+            <div class="progress mt-2">
+              <div 
+                class="progress-bar" 
+                role="progressbar" 
+                [style.width.%]="getPercentage(option.votes)" 
+                [attr.aria-valuenow]="getPercentage(option.votes)"
+                aria-valuemin="0" 
+                aria-valuemax="100">
+                {{ option.votes }}
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  

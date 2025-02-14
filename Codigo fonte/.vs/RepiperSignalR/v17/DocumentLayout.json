@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Git\\SignalAir.Repiper\\Codigo fonte\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{465232D8-A1D8-4569-99F9-9BAE524A8D1B}|RepiperSignalR.csproj|c:\\git\\signalair.repiper\\codigo fonte\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{465232D8-A1D8-4569-99F9-9BAE524A8D1B}|RepiperSignalR.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{465232D8-A1D8-4569-99F9-9BAE524A8D1B}|RepiperSignalR.csproj|c:\\git\\signalair.repiper\\codigo fonte\\hubs\\votehub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{465232D8-A1D8-4569-99F9-9BAE524A8D1B}|RepiperSignalR.csproj|solutionrelative:hubs\\votehub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{465232D8-A1D8-4569-99F9-9BAE524A8D1B}|RepiperSignalR.csproj|c:\\git\\signalair.repiper\\codigo fonte\\services\\poolservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{465232D8-A1D8-4569-99F9-9BAE524A8D1B}|RepiperSignalR.csproj|solutionrelative:services\\poolservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Git\\SignalAir.Repiper\\Codigo fonte\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Git\\SignalAir.Repiper\\Codigo fonte\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAxwDAAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-14T13:03:33.759Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PoolService.cs",
+              "DocumentMoniker": "C:\\Git\\SignalAir.Repiper\\Codigo fonte\\Services\\PoolService.cs",
+              "RelativeDocumentMoniker": "Services\\PoolService.cs",
+              "ToolTip": "C:\\Git\\SignalAir.Repiper\\Codigo fonte\\Services\\PoolService.cs",
+              "RelativeToolTip": "Services\\PoolService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-14T12:57:27.585Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "VoteHub.cs",
+              "DocumentMoniker": "C:\\Git\\SignalAir.Repiper\\Codigo fonte\\Hubs\\VoteHub.cs",
+              "RelativeDocumentMoniker": "Hubs\\VoteHub.cs",
+              "ToolTip": "C:\\Git\\SignalAir.Repiper\\Codigo fonte\\Hubs\\VoteHub.cs",
+              "RelativeToolTip": "Hubs\\VoteHub.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-14T12:55:38.615Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

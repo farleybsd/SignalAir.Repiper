@@ -1,0 +1,19 @@
+<div class="container">
+  <h2>Available Polls</h2>
+  <div class="row">
+    <div *ngIf="polls.length === 0" class="col-12 text-center">
+      <p>No polls available.</p>
+    </div>
+
+    <div *ngFor="let poll of polls" class="col-md-4 mb-3">
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">{{ poll.question }}</h5>
+
+          <button class="btn btn-primary m-2" (click)="navigateToPoll(poll.id)">Vote</button>
+          <button class="btn btn-info m-2" (click)="navigateToResults(poll.id)">View Results</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

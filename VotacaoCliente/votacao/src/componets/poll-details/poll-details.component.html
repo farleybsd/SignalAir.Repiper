@@ -1,0 +1,21 @@
+<div class="container" *ngIf="poll; else loading">
+  <div *ngIf="poll">
+    <h2>{{ poll.question }}</h2>
+  </div>
+  
+    <ul class="list-group">
+      <li 
+        *ngFor="let option of poll.options" 
+        class="list-group-item"
+        [class.active]="selectedOptionId === option.id"
+        (click)="selectOption(option.id)">
+        {{ option.text }}
+      </li>
+    </ul>
+    <button class="btn btn-success mt-3" (click)="submitVote()">Submit Vote</button>
+  </div>
+  
+  <ng-template #loading>
+    <div>Loading...</div>
+  </ng-template>
+  

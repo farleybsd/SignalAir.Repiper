@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Git\\SignalAir.Repiper\\EnqueteSignalr\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2C5A2739-FDCC-4607-AD7F-DE8FAF20B1E5}|EnqueteSignalr.csproj|c:\\git\\signalair.repiper\\enquetesignalr\\controllers\\pollscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C5A2739-FDCC-4607-AD7F-DE8FAF20B1E5}|EnqueteSignalr.csproj|solutionrelative:controllers\\pollscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C5A2739-FDCC-4607-AD7F-DE8FAF20B1E5}|EnqueteSignalr.csproj|c:\\git\\signalair.repiper\\enquetesignalr\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C5A2739-FDCC-4607-AD7F-DE8FAF20B1E5}|EnqueteSignalr.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Git\\SignalAir.Repiper\\EnqueteSignalr\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Git\\SignalAir.Repiper\\EnqueteSignalr\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAowCwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-14T15:44:44.571Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PollsController.cs",
+              "DocumentMoniker": "C:\\Git\\SignalAir.Repiper\\EnqueteSignalr\\Controllers\\PollsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\PollsController.cs",
+              "ToolTip": "C:\\Git\\SignalAir.Repiper\\EnqueteSignalr\\Controllers\\PollsController.cs",
+              "RelativeToolTip": "Controllers\\PollsController.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAowDIAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-14T15:36:20.344Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

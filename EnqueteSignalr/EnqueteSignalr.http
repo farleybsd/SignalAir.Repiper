@@ -1,0 +1,6 @@
+@EnqueteSignalr_HostAddress = http://localhost:5093
+
+GET {{EnqueteSignalr_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

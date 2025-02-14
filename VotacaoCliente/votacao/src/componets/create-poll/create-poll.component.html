@@ -1,0 +1,32 @@
+<div class="container">
+  <h2>Create a New Poll</h2>
+
+  <div *ngIf="errorMessage" class="alert alert-danger">
+    {{ errorMessage }}
+  </div>
+
+  <form [formGroup]="pollForm">
+    <!-- Pergunta -->
+    <div class="mb-3">
+      <label class="form-label">Poll Question</label>
+      <input type="text" class="form-control" formControlName="question" placeholder="Enter poll question" />
+    </div>
+
+    <!-- Opções Dinâmicas -->
+    <div formArrayName="options">
+      <div *ngFor="let option of options.controls; let i = index" [formGroupName]="i" class="mb-3">
+        <label class="form-label">Option {{ i + 1 }}</label>
+        <input type="text" class="form-control" formControlName="text" placeholder="Option {{ i + 1 }}" />
+      </div>
+    </div>
+
+    <!-- Botões -->
+    <button type="button" class="btn btn-secondary m-2" (click)="addOption()">
+      Add Another Option
+    </button>
+
+    <button type="button" class="btn btn-primary m-2" (click)="submitPoll()">
+      Create Poll
+    </button>
+  </form> 
+</div>
